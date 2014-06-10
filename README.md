@@ -8,4 +8,4 @@ These demonstrations consist in ipython notebooks.
 **Telemeta**, open web audio CMS : http://telemeta.org/
 
 The notebooks can be view online at:
-http://nbviewer.ipython.org/github/thomasfillon/AES53-timeside-demos/
+http://nbviewer.ipython.org/github/thomasfillon/Timeside-demos/
