@@ -1,4 +1,4 @@
-AES 53rd conference TimeSide demonstrations
+TimeSide demonstrations
 ===========================================
 
 These demonstrations consist in ipython notebooks.
