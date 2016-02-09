@@ -1,6 +1,8 @@
 TimeSide demonstrations
-===========================================
+=======================
 
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/thomasfillon/Timeside-demos)
+ 
 These demonstrations consist in ipython notebooks.
 
 **TimeSide**, open web audio processing framework : https://github.com/yomguy/TimeSide
