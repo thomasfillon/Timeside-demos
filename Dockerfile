@@ -30,7 +30,8 @@ RUN conda config --add channels piem &&\
 
 COPY . /srv/src/timeside/
 
+USER root
 # Install TimeSide
 RUN pip install -e .
 
-
+USER main
