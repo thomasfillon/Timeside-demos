@@ -15,7 +15,8 @@ RUN mkdir -p /srv/src/ && \
     tar -xf dev.tar.gz && \
     mv TimeSide-dev/ timeside && \
     cd timeside
-    
+
+WORKDIR /srv/src/timeside/
 
 # Add dependency
 RUN DEBIAN_PACKAGES=$(egrep -v "^\s*(#|$)" debian-requirements.txt) && \
