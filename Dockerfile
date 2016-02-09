@@ -23,17 +23,14 @@ RUN DEBIAN_PACKAGES=$(egrep -v "^\s*(#|$)" debian-requirements.txt) && \
     apt-get install -y --force-yes $DEBIAN_PACKAGES && \
     apt-get clean
 
+USER main
+
 RUN conda config --add channels piem &&\
     conda env update --name root --file environment-pinned.yml
 
 COPY . /srv/src/timeside/
 
-ENV PYTHON_EGG_CACHE=/srv/.python-eggs
-RUN mkdir $PYTHON_EGG_CACHE
-RUN chown www-data:www-data $PYTHON_EGG_CACHE
-
 # Install TimeSide
 RUN pip install -e .
 
 
-USER main
