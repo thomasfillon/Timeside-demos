@@ -1,13 +1,11 @@
 TimeSide demonstrations
 =======================
 
+This repository is a collection of [Jupyter](http://jupyter.org/) notebooks to illustrate some basics feature of **[TimeSide](https://github.com/parisson/TimeSide)**, an Audio processing framework for the web. 
+
+These notebooks can be executed in an *interactive* environment thanks to [Binder](http://mybinder.org/).
+
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/thomasfillon/Timeside-demos)
  
-These demonstrations consist in ipython notebooks.
-
-**TimeSide**, open web audio processing framework : https://github.com/yomguy/TimeSide
-
-**Telemeta**, open web audio CMS : http://telemeta.org/
-
-The notebooks can be view online at:
-http://nbviewer.ipython.org/github/thomasfillon/Timeside-demos/
+The notebooks can also be view online (non interactively) on the 
+[Jupyter nbviewer](http://nbviewer.ipython.org/github/thomasfillon/Timeside-demos/) site.
